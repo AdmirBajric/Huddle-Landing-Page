@@ -46,8 +46,6 @@ body {
 }
 
 #section-img {
-    margin: 0;
-    padding: 0;
     width: 696px;
     height: 493px;
     position: absolute;
@@ -124,7 +122,7 @@ body {
     justify-content: space-between;
 }
 
-.container {
+#social-btn i {
     width: 40px;
     height: 40px;
     display: flex;
@@ -133,14 +131,12 @@ body {
     border: 1px solid #fff;
     border-radius: 50%;
     cursor: pointer;
-}
-
-.container:active {
-    border: 1px solid var(--primary-soft-magenta);
-}
-
-.fab {
     color: #fff
+}
+
+#social-btn i:active {
+    color: var(--primary-soft-magenta);
+    border: 1px solid var(--primary-soft-magenta);
 }
 
 .attribution {
